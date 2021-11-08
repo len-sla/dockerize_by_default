@@ -32,7 +32,8 @@ https://github.com/nicolaka/netshoot
 
 First application which I am opening in my ubuntu is 
 ctop from netshoot( created by Nicola Kabar ) to deal with all kind of network issues.<br>
-
+docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --name netshooot-ctop nicolaka/netshoot  ctop
+ 
 ![what for is netshoot](netshoot.png)
 
 This will be my prevailing approach not installing applications in the system if possible to use the from container 
