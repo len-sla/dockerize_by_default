@@ -39,8 +39,7 @@ docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --name netshooo
  
 ![what for is netshoot](netshoot.png)
 
-This will be my prevailing approach not installing applications in the system if possible to use the from container 
-similarly with 
+This will be my prevailing approach __not installing applications in the system__ if possible use applications the from container 
 
 
 ---
