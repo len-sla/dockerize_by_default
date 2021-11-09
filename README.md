@@ -1,15 +1,18 @@
 ## Project Name
 > <p>Dockerising by default.<br>
 To change constantly try new environments flexible base is one of the necessary things.<br>
-At best  working on as many as possible operating systems. here ar ecomming couple of contenerisations players.<br>
-When we are talking about small scale up to 200 instances docker is one of the choices. <br>
+At best  working on as many as possible operating systems. here are comming couple of contenerisations players.<br>
+When we are talking about small scale up to 200 instances: docker and docker swarm is one of the choices. <br>
+ 
 Docker allows for containerization of applications, which means you can run isolated instances of your services and applications. <br> In addition, Docker gives you the ability to connect your apps and services together with Docker Compose, which makes Python apps very convenient to build.<br>
-Below there are cases where in my learning and work docker was really game changer.
-For that reason I will not be expaining what s image container, docker-compose etc. 
-It will be more about examples like " for doing ML or NLP or other task I took particualr image and made it work.
+ 
+Below there are cases where in my learning and work with docker was really game changer.
+For that reason I will not be expaining what is image container, docker-compose etc. 
+It will be more about examples like " for doing ML or NLP or other task I took particualr image ajusted and made it work.
 
-Someone could ask what about virtual Machines?
-Contrary to how VMs work, with Docker we don’t need to constantly set up clean environments in the hopes of avoiding conflicts.<br> With Docker, we know that there will be no conflicts. Docker guarantees that application microservices will run in their own environments that are completely separate from the operating system.
+Someone could ask what about Virtual Machines?<br>
+Contrary to how VMs work, with Docker we don’t need to constantly set up clean environments in the hopes of avoiding conflicts.<br>
+With Docker, we know that there will be no conflicts. Docker guarantees that application microservices will run in their own environments that are completely separate from the operating system.
 
 Thanks to Docker, there’s no need for each developer in a team to carefully follow 20 pages of operating system-specific instructions. <br>Instead, one developer can create a stable environment with all the necessary libraries and languages and simply save this setup in the Docker Hub or other server.
 
