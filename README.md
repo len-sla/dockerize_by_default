@@ -70,8 +70,7 @@ Project is: _in progress_
 
 
 
-### Other information
-Notebook is divided on universal fuctions whicht  could be easlily used elsewhere.
+
 
 
 
