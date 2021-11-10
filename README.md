@@ -75,7 +75,7 @@ docker run -it \
  ```
  docker run --rm --name stanza_nlp -p 9000:9000 nlpbox/corenlp
  ```
- end vuala
+ end voilà:
  
  ![Docker](https://github.com/len-sla/dockerize_by_default/blob/main/docker-1.PNG)
  
