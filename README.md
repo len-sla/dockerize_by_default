@@ -70,6 +70,10 @@ docker run -it \
     codercom/code-server
 ```
 
+ end vuala
+ 
+ ![Docker](https://github.com/len-sla/dockerize_by_default/blob/main/docker-1.PNG)
+ 
 ### Status
 Project is: _in progress_ 
 
