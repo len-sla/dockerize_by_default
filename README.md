@@ -53,13 +53,13 @@ This will be my prevailing approach __not installing applications in the system_
 
 
 --- 
-
+```
 docker run -d \
 --name firefox \
 -e DISPLAY=$DISPLAY \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
 kennethkl/firefox
-
+```
 
 ---
 
