@@ -69,7 +69,12 @@ docker run -it \
     -u "$(id -u):$(id -g)" \
     codercom/code-server
 ```
-
+## 2.  and stanza from Stanford
+ https://github.com/NLPbox/stanford-corenlp-docker
+ 
+ ```
+ docker run --rm --name stanza_nlp -p 9000:9000 nlpbox/corenlp
+ ```
  end vuala
  
  ![Docker](https://github.com/len-sla/dockerize_by_default/blob/main/docker-1.PNG)
