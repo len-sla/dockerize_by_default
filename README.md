@@ -44,8 +44,6 @@ This will be my prevailing approach __not installing applications in the system_
 
 ---
 
- 
-## Using other docker containers
 
 
 
@@ -63,7 +61,14 @@ kennethkl/firefox
 
 ---
 
-
+## 2.  why no to use VSCode itself in docker
+```bash
+docker run -it \
+    -p 8080:8080 \
+    -v "$PWD:/home/coder/project" \
+    -u "$(id -u):$(id -g)" \
+    codercom/code-server
+```
 
 ### Status
 Project is: _in progress_ 
