@@ -69,7 +69,7 @@ docker run -it \
     -u "$(id -u):$(id -g)" \
     codercom/code-server
 ```
-## 2.  and stanza from Stanford
+## 3.  and stanza from Stanford
  https://github.com/NLPbox/stanford-corenlp-docker
  
  ```
@@ -79,6 +79,27 @@ docker run -it \
  
  ![Docker](https://github.com/len-sla/dockerize_by_default/blob/main/docker-1.PNG)
  
+ ## 4.  [readme-science_docker](https://github.com/andreivmaksimov/python_data_science)
+
+It is nicely described how to prepare own conrtainer with jupyter keras pandas and tensorflow 
+to be able check own ideas
+
+This is fully ready Docker container with:
+
+    NumPy
+    Pandas
+    Sklearn
+    Matplotlib
+    Seaborn
+    pyyaml
+    h5py
+    Jupyter
+    Tensorflow
+    Keras
+    OpenCV 3
+
+
+https://github.com/andreivmaksimov/python_data_science
 ### Status
 Project is: _in progress_ 
 
