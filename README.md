@@ -59,7 +59,7 @@ docker run -d \
 kennethkl/firefox
 ```
 If there is need to do that in windows work of Jocelyn Le Sage is doing the job  https://github.com/jlesage/docker-firefox.
-Well documented. There are also other tools. I am not the only one who appreciate this repository
+Well documented, bullet proff, up to date. There are also other tools and  I am not the only one who appreciate this repository.
 
  ```
  docker run -d \
