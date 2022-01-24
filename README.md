@@ -58,7 +58,19 @@ docker run -d \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
 kennethkl/firefox
 ```
+If there is need to do that in windows work of Jocelyn Le Sage is doing the job  https://github.com/jlesage/docker-firefox.
+Well documented. There are also other tools. I am not the only one who appreciate this repository
 
+ ```
+ docker run -d \
+    --name=firefox \
+    -p 5800:5800 \
+    -v /docker/appdata/firefox:/config:rw \
+    --shm-size 2g \
+    jlesage/firefox
+ ```
+ 
+ 
 ---
 
 ## 2.  why no to use VSCode itself in docker
