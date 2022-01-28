@@ -119,11 +119,9 @@ Project is: _in progress_
 
 
 
-## To monitor what is going on with docker containers
+## 5. To monitor what is going on with docker containers
  
  we could start from the simplest
- .  and stanza from Stanford
- https://github.com/NLPbox/stanford-corenlp-docker
  
  ```
 docker stats
@@ -131,9 +129,14 @@ docker stats
  a bit more advances with the use of other docker container ctop
  
  ```
+ddocker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --name netshooot-ctop nicolaka/netshoot  ctop
+ ```
+ or use nice tool based on the webbrownser from Google
+ cAdvisor
+
+ ```
 docker stats
  ```
-
 
 ### Contact
 Created by: _lencz.sla@gmail.com_
