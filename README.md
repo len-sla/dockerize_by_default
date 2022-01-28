@@ -148,7 +148,9 @@ sudo docker run \
   gcr.io/google-containers/cadvisor:latest
  ```
 to show that I started some couple of  instances of redis and httpd  so the charts will be showing something 
- ![CAdvisor in action](cadvisor.gif)
+ ---
+ 
+ ![cAdvisor in action](cadvisor.gif)
  
 ### Contact
 Created by: _lencz.sla@gmail.com_
