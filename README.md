@@ -119,7 +119,20 @@ Project is: _in progress_
 
 
 
-
+## To monitor what is going on with docker containers
+ 
+ we could start from the simplest
+ .  and stanza from Stanford
+ https://github.com/NLPbox/stanford-corenlp-docker
+ 
+ ```
+docker stats
+ ```
+ a bit more advances with the use of other docker container ctop
+ 
+ ```
+docker stats
+ ```
 
 
 ### Contact
