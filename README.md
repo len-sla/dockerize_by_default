@@ -133,6 +133,7 @@ docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --name netshooo
  ```
  or use nice tool based on the webbrownser from Google
  cAdvisor
+ ![cAdvisor](https://github.com/google/cadvisor)
 
  ```
 sudo docker run \
@@ -146,7 +147,7 @@ sudo docker run \
   --name=cadvisor \
   gcr.io/google-containers/cadvisor:latest
  ```
-
+to show that I started some couple of  instances of redis and httpd  so the charts will be showing something 
 ### Contact
 Created by: _lencz.sla@gmail.com_
 
