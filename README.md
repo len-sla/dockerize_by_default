@@ -129,13 +129,22 @@ docker stats
  a bit more advances with the use of other docker container ctop
  
  ```
-ddocker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --name netshooot-ctop nicolaka/netshoot  ctop
+docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --name netshooot-ctop nicolaka/netshoot  ctop
  ```
  or use nice tool based on the webbrownser from Google
  cAdvisor
 
  ```
-docker stats
+sudo docker run \
+  --volume=/:/rootfs:ro \
+  --volume=/var/run:/var/run:ro \
+  --volume=/sys:/sys:ro \
+  --volume=/var/lib/docker/:/var/lib/docker:ro \
+  --volume=/dev/disk/:/dev/disk:ro \
+  --publish=8080:8080 \
+  --detach=true \
+  --name=cadvisor \
+  gcr.io/google-containers/cadvisor:latest
  ```
 
 ### Contact
