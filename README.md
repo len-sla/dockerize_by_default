@@ -131,7 +131,7 @@ docker stats
  ```
 docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --name netshooot-ctop nicolaka/netshoot  ctop
  ```
- or use nice tool based on the webbrownser from Google
+you can  use nice tool based on the webbrownser from Google
  cAdvisor
  ![cAdvisor](https://github.com/google/cadvisor)
 
@@ -155,6 +155,10 @@ sudo docker run \
  ---
  
  ![cAdvisor in action](cadvisor.gif)
+ 
+ If you still need more artilery there is also nice package prometeus graphana etc everything dockerised by Brian Christner's team 
+ https://github.com/vegasbrianc/prometheus
+ ![Grafana](https://raw.githubusercontent.com/vegasbrianc/prometheus/master/images/Dashboard.png)
  
 ### Contact
 Created by: _lencz.sla@gmail.com_
