@@ -156,7 +156,7 @@ sudo docker run \
  
  ![cAdvisor in action](cadvisor.gif)
  
- If you still need more artilery there is also nice package prometeus graphana etc everything dockerised by Brian Christner's team 
+ If you still need more more details  there is package prometeus graphana etc everything dockerised by Brian Christner's team 
  https://github.com/vegasbrianc/prometheus
  ![Grafana](https://raw.githubusercontent.com/vegasbrianc/prometheus/master/images/Dashboard.png)
  
