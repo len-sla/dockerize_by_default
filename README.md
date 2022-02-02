@@ -148,8 +148,8 @@ sudo docker run \
   gcr.io/google-containers/cadvisor:latest
  ```
 
- to show that:
- I started some couple of  instances of redis and httpd  so the charts will be showing something 
+ to preent that:
+ I started before some couple of  instances of redis and httpd  so the charts will be showing something 
  
  
  ---
