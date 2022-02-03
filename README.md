@@ -121,7 +121,7 @@ logs from the container are a bit missleading
   ```
  
  
-but jupytter works simply give localhost or 0.0.0.0
+but jupyter works simply give localhost or 0.0.0.0 and port  instead of generated link
  
 ### Status
 Project is: _in progress_ 
