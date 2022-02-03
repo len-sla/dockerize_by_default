@@ -112,6 +112,17 @@ This is fully ready Docker container with:
 
 
 https://github.com/andreivmaksimov/python_data_science
+ 
+logs from the container are a bit missleading
+ 
+  ```
+[I 07:57:30.517 NotebookApp] Jupyter Notebook 6.1.3 is running at:
+[I 07:57:30.518 NotebookApp] http://3e95443d41b4:8888/
+  ```
+ 
+ 
+but jupytter works simply give localhost or 0.0.0.0
+ 
 ### Status
 Project is: _in progress_ 
 
