@@ -159,7 +159,7 @@ sudo docker run \
   gcr.io/google-containers/cadvisor:latest
  ```
 
- to preent that:
+ to present some traffic and interactions that:
  I started before some couple of  instances of redis and httpd  so the charts will be showing something 
  
  
