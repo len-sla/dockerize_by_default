@@ -142,6 +142,18 @@ docker stats
  ```
 docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock --name netshooot-ctop nicolaka/netshoot  ctop
  ```
+ Very useful is portainer especially that it could be in docker itself
+ 
+ https://github.com/portainer/portainer
+ 
+ ```
+docker run -d -p 9000:9000 -p 8000:8000 --name portainer \
+--restart always \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    -v portainer_data:/data --restart always \
+    portainer/portainer
+ ```
+ 
 you can  use nice tool based on the webbrownser from Google
  cAdvisor
  ![cAdvisor](https://github.com/google/cadvisor)
