@@ -109,6 +109,7 @@ This is fully ready Docker container with:
     Tensorflow
     Keras
     OpenCV 3
+    ffmpeg
 
 
 https://github.com/andreivmaksimov/python_data_science
