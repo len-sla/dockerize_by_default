@@ -123,6 +123,13 @@ logs from the container are a bit missleading
  
 but jupyter works simply give localhost or 0.0.0.0 and port  instead of generated link
  
+as Docker file is given if there was need as with ffmpeg I simply included that in the secion of apt install
+ ie :
+  ```
+[I 07:57:30.517 NotebookApp] Jupyter Notebook 6.1.3 is running at:
+[I 07:57:30.518 NotebookApp] http://3e95443d41b4:8888/
+  ```
+ 
 ### Status
 Project is: _in progress_ 
 
