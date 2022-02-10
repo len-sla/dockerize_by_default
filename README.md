@@ -128,10 +128,10 @@ as Docker file is given if there was need as with ffmpeg I simply included that 
   ```
 RUN apt-get update && apt-get install -y \
 	libopencv-dev \
- python3-pip \
+	python3-pip \
 	python3-opencv \
- ffmpeg && \
- rm -rf /var/lib/apt/lists/*
+	ffmpeg && \
+	rm -rf /var/lib/apt/lists/*
   ```
  
 ### Status
