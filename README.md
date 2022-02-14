@@ -91,7 +91,7 @@ docker run -it \
  
  ![Docker](https://github.com/len-sla/dockerize_by_default/blob/main/docker-1.PNG)
  
- ## 4.  [Data science container](https://github.com/andreivmaksimov/python_data_science)
+ ## 4.  [Data science container for local excercises](https://github.com/andreivmaksimov/python_data_science)
 
 It is nicely described how to prepare own conrtainer with jupyter keras pandas and tensorflow 
 to be able check own ideas
