@@ -134,10 +134,15 @@ RUN apt-get update && apt-get install -y \
 	ffmpeg && \
 	rm -rf /var/lib/apt/lists/*
   ```
- 
-### Status
-Project is: _in progress_ 
+---
 
+	in case of permission problems nice small extra  parameter could do the job
+```
+  --user "$(id -u):$(id -g)" \
+```
+ 
+
+The difference is ‘–user “$(id -u):$(id -g)“’ - they tell the container to run with the current user id and group id which are obtained dynamically through bash command substitution by running the “id -u” and “id -g” and passing on their values.
 
 
 
